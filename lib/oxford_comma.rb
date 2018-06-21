@@ -8,8 +8,7 @@ def oxford_comma(array)
     last_element = array[-1]
     # create the sentence, adding a comma after each element
     oxford_sentence = array.join(", ")
-    # insert "and" before the last element
+    # insert "and" before the last element and return the sentence
     oxford_sentence.insert(-last_element.size - 1, "and ")
-    #oxford_sentence
   end
 end
