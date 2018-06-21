@@ -6,6 +6,7 @@ def oxford_comma(array)
   else
     last_element = array[-1]
     oxford_sentence = array.join(", ")
-    oxford_sentence.
+    oxford_sentence.insert(-last_element.size, " and ")
+    oxford_sentence
   end
 end
